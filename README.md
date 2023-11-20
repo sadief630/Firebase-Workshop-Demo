@@ -1,4 +1,3 @@
-```markdown
 # Firebase Workshop Demo with React
 
 This repository contains a comprehensive demo for the Firebase Workshop covering Firebase Realtime Database, Authentication, and Cloud Firestore integration using React. This demo illustrates how to build a multi-platform application using Firebase services for real-time data management and user authentication.
