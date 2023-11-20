@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { getAuth, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import CatUploader from './CatUploader';
 import CatViewer from "./CatViewer";
 import './App.css';
+import ConspiracyViewer from "./ConspiracyViewer";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -82,8 +82,9 @@ function App() {
           <button onClick={handleLogout}>Logout</button>
         </div>
         <h2>Welcome, {user.email}!</h2>
-        <CatUploader></CatUploader>
+        {/* <CatUploader></CatUploader>
         <CatViewer></CatViewer>
+        <ConspiracyViewer></ConspiracyViewer> */}
       </div>
       </div>
      
