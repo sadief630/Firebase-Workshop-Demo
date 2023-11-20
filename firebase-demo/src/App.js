@@ -5,6 +5,7 @@ import CatUploader from './CatUploader';
 import CatViewer from "./CatViewer";
 import './App.css';
 import ConspiracyViewer from "./ConspiracyViewer";
+import ConspiracyQuerier from "./ConspiracyQuerier";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -84,7 +85,8 @@ function App() {
         <h2>Welcome, {user.email}!</h2>
         {/* <CatUploader></CatUploader>
         <CatViewer></CatViewer>
-        <ConspiracyViewer></ConspiracyViewer> */}
+        <ConspiracyViewer></ConspiracyViewer>
+        <ConspiracyQuerier></ConspiracyQuerier> */}
       </div>
       </div>
      
