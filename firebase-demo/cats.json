@@ -1,0 +1,29 @@
+{
+    "cats": {
+      "cat1": {
+        "name": "Whiskers",
+        "age": 3,
+        "breed": "Siamese",
+        "color": "Brown",
+        "likes": ["Playing with toys", "Napping"],
+        "image": "https://images.wagwalkingweb.com/media/daily_wag/blog_articles/hero/1678934108.5188236/everything-you-need-to-know-about-siamese-cats.png"
+      },
+      "cat2": {
+        "name": "Mittens",
+        "age": 5,
+        "breed": "Maine Coon",
+        "color": "White",
+        "likes": ["Cuddling", "Exploring"],
+        "image": "https://i.redd.it/q5x2g23zfut41.jpg"
+      },
+      "cat3": {
+        "name": "Salem",
+        "age": 2,
+        "breed": "Black Shorthair",
+        "color": "Black",
+        "likes": ["Sunbathing", "Chasing laser pointers"],
+        "image": "https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg"
+      }
+    }
+  }
+  
